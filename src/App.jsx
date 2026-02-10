@@ -6,6 +6,8 @@ import Slider from './components/ImageSlider/Slider'
 import LoadMore from './components/load-more-button/LoadMore'
 import QCode from './components/qrGenerator/qCode'
 import LightDarkMode from './components/light-dark-mode/LightDarkMode'
+import Scroll from './components/scroll-indicator/Scroll'
+import Tabtest from './components/custom-tabs/Tabtest'
 
 const App = () => {
   return (
@@ -16,8 +18,9 @@ const App = () => {
       {/* <Slider url={"https://picsum.photos/v2/list"} page={5} limit={15}/> */}
       {/* <LoadMore/> */}
       {/* <QCode/> */}
-      <LightDarkMode/>
-      
+      {/* <LightDarkMode/> */}
+      {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
+      <Tabtest/>
     </div>
   )
 }
