@@ -8,6 +8,7 @@ import QCode from './components/qrGenerator/qCode'
 import LightDarkMode from './components/light-dark-mode/LightDarkMode'
 import Scroll from './components/scroll-indicator/Scroll'
 import Tabtest from './components/custom-tabs/Tabtest'
+import Modaltest from './components/custom-modal-popup/Modaltest'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <QCode/> */}
       {/* <LightDarkMode/> */}
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
-      <Tabtest/>
+      {/* <Tabtest/> */}
+      <Modaltest/>
     </div>
   )
 }
