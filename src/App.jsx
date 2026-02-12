@@ -10,6 +10,7 @@ import Scroll from './components/scroll-indicator/Scroll'
 import Tabtest from './components/custom-tabs/Tabtest'
 import Modaltest from './components/custom-modal-popup/Modaltest'
 import Github from './components/github-profile-finder/Github'
+import AutoComplete from './components/search-autocomplete/AutoComplete'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
       {/* <Tabtest/> */}
       {/* <Modaltest/> */}
-      <Github/>
+      {/* <Github/> */}
+      <AutoComplete/>
     </div>
   )
 }
