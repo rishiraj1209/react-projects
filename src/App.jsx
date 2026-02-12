@@ -9,6 +9,7 @@ import LightDarkMode from './components/light-dark-mode/LightDarkMode'
 import Scroll from './components/scroll-indicator/Scroll'
 import Tabtest from './components/custom-tabs/Tabtest'
 import Modaltest from './components/custom-modal-popup/Modaltest'
+import Github from './components/github-profile-finder/Github'
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* <LightDarkMode/> */}
       {/* <Scroll url={"https://dummyjson.com/products?limit=100"}/> */}
       {/* <Tabtest/> */}
-      <Modaltest/>
+      {/* <Modaltest/> */}
+      <Github/>
     </div>
   )
 }
