@@ -11,6 +11,9 @@ import Tabtest from './components/custom-tabs/Tabtest'
 import Modaltest from './components/custom-modal-popup/Modaltest'
 import Github from './components/github-profile-finder/Github'
 import AutoComplete from './components/search-autocomplete/AutoComplete'
+import Game from './components/tic-tac-toe/Game'
+import UseFetch from './components/use-fetch/UseFetch'
+import Testing from './components/use-fetch/Testing'
 
 const App = () => {
   return (
@@ -26,7 +29,10 @@ const App = () => {
       {/* <Tabtest/> */}
       {/* <Modaltest/> */}
       {/* <Github/> */}
-      <AutoComplete/>
+      {/* <AutoComplete/> */}
+      {/* <Game/> */}
+      {/* <UseFetch/> */}
+      <Testing/>
     </div>
   )
 }
